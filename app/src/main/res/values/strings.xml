@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidLearningPath</string>
+    <string name="title_activity_button_click_counter">ButtonClickCounter</string>
 </resources>
