@@ -18,7 +18,8 @@
         <activity
             android:name=".buttonclickcounter.ButtonClickCounter"
             android:label="@string/title_activity_button_click_counter"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".calculator.Calculator"></activity>
     </application>
 
 </manifest>

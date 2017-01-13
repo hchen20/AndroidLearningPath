@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.behappy.hchen.androidlearningpath.R;
 
+import static android.provider.Telephony.Mms.Part.TEXT;
+
 public class ButtonClickCounter extends AppCompatActivity {
 
     private static final String TAG = ButtonClickCounter.class.getSimpleName();
@@ -68,12 +70,15 @@ public class ButtonClickCounter extends AppCompatActivity {
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         Log.d(TAG, "onRestoreInstanceState: in");
         super.onRestoreInstanceState(savedInstanceState);
+        String text = savedInstanceState.getString(TEXT);
+        textView.setText(text);
         Log.d(TAG, "onRestoreInstanceState: out");
     }
-    
+
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         Log.d(TAG, "onSaveInstanceState: in");
+        outState.putString(TEXT, textView.getText().toString());
         super.onSaveInstanceState(outState);
         Log.d(TAG, "onSaveInstanceState: out");
     }
