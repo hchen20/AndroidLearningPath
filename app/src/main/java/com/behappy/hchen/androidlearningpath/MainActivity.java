@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.behappy.hchen.androidlearningpath.buttonclickcounter.ButtonClickCounter;
+import com.behappy.hchen.androidlearningpath.calculator.Calculator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,8 +35,11 @@ public class MainActivity extends AppCompatActivity {
         calculator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this, Calculator.class);
+                startActivity(intent);
             }
         });
+
+
     }
 }

@@ -25,6 +25,7 @@
             android:name="com.behappy.hchen.androidlearningpath.buttonclickcounter.ButtonClickCounter"
             android:label="@string/title_activity_button_click_counter"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.behappy.hchen.androidlearningpath.calculator.Calculator" />
     </application>
 
 </manifest>

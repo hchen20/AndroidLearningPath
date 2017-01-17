@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\workspace\Games\AndroidLearningPath\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta4\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:23.3.0] C:\workspace\Games\AndroidLearningPath\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
@@ -46,13 +46,17 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:15:27-74
 activity#com.behappy.hchen.androidlearningpath.buttonclickcounter.ButtonClickCounter
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:18:9-21:68
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:18:9-21:59
 	android:label
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:20:13-72
 	android:theme
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:19:13-66
+activity#com.behappy.hchen.androidlearningpath.calculator.Calculator
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:22:9-68
+	android:name
+		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:22:19-56
 uses-sdk
 INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\workspace\Games\AndroidLearningPath\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta4\AndroidManifest.xml:5:5-7:41

@@ -128,6 +128,10 @@
         "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calculator.xml",
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\src\\main\\res\\layout\\activity_calculator.xml"
+    },
+    {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buttom_click_counter.xml",
         "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\src\\main\\res\\layout\\activity_buttom_click_counter.xml"
     },
