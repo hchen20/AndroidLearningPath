@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.behappy.hchen.androidlearningpath">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,8 @@
             android:name=".buttonclickcounter.ButtonClickCounter"
             android:label="@string/title_activity_button_click_counter"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".calculator.Calculator"></activity>
+        <activity android:name=".calculator.Calculator" />
+        <activity android:name=".top10downloader.Top10Downloader"></activity>
     </application>
 
 </manifest>

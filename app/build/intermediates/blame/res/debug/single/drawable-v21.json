@@ -1,14 +1,14 @@
 [
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "source": "C:\\Users\\Hang Chen\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\Hang Chen\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\Hang Chen\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     }
 ]

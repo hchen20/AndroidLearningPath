@@ -26,13 +26,13 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonclickcounter" />
 
     <Button
-        android:text="Button"
+        android:id="@+id/top10downloader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="148dp"
-        android:id="@+id/button4"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/calculator" />
+        android:text="Top 10 Downloader"
+        app:layout_constraintTop_toBottomOf="@+id/calculator"
+        tools:layout_editor_absoluteX="108dp" />
 
     <Button
         android:text="Button"
@@ -41,5 +41,5 @@
         tools:layout_editor_absoluteX="148dp"
         android:id="@+id/button5"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/top10downloader" />
 </android.support.constraint.ConstraintLayout>
