@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.behappy.hchen.androidlearningpath">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,8 @@
             android:label="@string/title_activity_button_click_counter"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".calculator.Calculator" />
-        <activity android:name=".top10downloader.Top10Downloader"></activity>
+        <activity android:name=".top10downloader.Top10Downloader" />
+        <activity android:name=".wechatsdk.WechatSDKLearn"></activity>
     </application>
 
 </manifest>

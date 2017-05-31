@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
@@ -14,11 +14,11 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:5-83
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\Hang Chen\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:23.3.0] C:\Users\Hang Chen\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Hang Chen\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:25:5-20
@@ -62,9 +62,13 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:24:19-56
 activity#com.behappy.hchen.androidlearningpath.top10downloader.Top10Downloader
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:25:9-78
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:25:9-69
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:25:19-66
+activity#com.behappy.hchen.androidlearningpath.wechatsdk.WechatSDKLearn
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:26:9-71
+	android:name
+		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:26:19-59
 uses-sdk
 INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\Hang Chen\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:5:5-7:41

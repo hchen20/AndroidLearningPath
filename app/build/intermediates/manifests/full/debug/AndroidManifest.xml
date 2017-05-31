@@ -29,6 +29,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.behappy.hchen.androidlearningpath.calculator.Calculator" />
         <activity android:name="com.behappy.hchen.androidlearningpath.top10downloader.Top10Downloader" />
+        <activity android:name="com.behappy.hchen.androidlearningpath.wechatsdk.WechatSDKLearn" />
     </application>
 
 </manifest>
