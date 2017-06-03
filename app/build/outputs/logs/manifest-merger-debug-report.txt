@@ -19,12 +19,12 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:7:5-27:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\Hang Chen\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:23.3.0] C:\Users\Hang Chen\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Hang Chen\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Hang Chen\.android\build-cache\010f1f9d111a4bf52cdcdb8409a6d4ee385115fb\output\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Hang Chen\.android\build-cache\9365457099bc7b94e466eeda2c55921e604bc7c5\output\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Hang Chen\.android\build-cache\99ba598d5ef0e591bf324f18941d576c96338a7e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\010f1f9d111a4bf52cdcdb8409a6d4ee385115fb\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\9365457099bc7b94e466eeda2c55921e604bc7c5\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\99ba598d5ef0e591bf324f18941d576c96338a7e\output\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -71,15 +71,15 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:26:19-59
 uses-sdk
 INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\Hang Chen\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:23.3.0] C:\Users\Hang Chen\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Hang Chen\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Hang Chen\.android\build-cache\010f1f9d111a4bf52cdcdb8409a6d4ee385115fb\output\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Hang Chen\.android\build-cache\9365457099bc7b94e466eeda2c55921e604bc7c5\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Hang Chen\.android\build-cache\92db690d2b4dac30efdd15af5aa0ea848f256d78\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Hang Chen\.android\build-cache\99ba598d5ef0e591bf324f18941d576c96338a7e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\010f1f9d111a4bf52cdcdb8409a6d4ee385115fb\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\9365457099bc7b94e466eeda2c55921e604bc7c5\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\92db690d2b4dac30efdd15af5aa0ea848f256d78\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\99ba598d5ef0e591bf324f18941d576c96338a7e\output\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Hang Chen\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\usr.home\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
