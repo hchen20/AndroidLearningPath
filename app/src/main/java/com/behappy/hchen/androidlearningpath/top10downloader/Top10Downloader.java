@@ -4,6 +4,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.behappy.hchen.androidlearningpath.R;
 
@@ -17,11 +19,12 @@ import java.net.URL;
 public class Top10Downloader extends AppCompatActivity {
 
     private final static String TAG = "Top10Downloader";
-
+    private ListView listApps;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top10_downloader);
+        listApps = (ListView) findViewById(R.id.xmListView);
 
         Log.d(TAG, "onCreate: starting Asynctask");
         DownloadData downloadData = new DownloadData();
@@ -32,10 +35,21 @@ public class Top10Downloader extends AppCompatActivity {
     private class DownloadData extends AsyncTask<String, Void, String> {
         private static final String TAG = "DownloadData";
 
+
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             Log.d(TAG, "onPostExecute: parameter is " + s);
+            ParseApplications parseApplications = new ParseApplications();
+            parseApplications.parse(s);
+
+            ArrayAdapter<FeedEntry> arrayAdapter = new ArrayAdapter<FeedEntry>(
+                    Top10Downloader.this,
+                    R.layout.list_item,
+                    parseApplications.getApplications()
+            );
+
+            listApps.setAdapter(arrayAdapter);
         }
 
         @Override

@@ -92,6 +92,10 @@
         "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\layout\\notification_media_action.xml"
     },
