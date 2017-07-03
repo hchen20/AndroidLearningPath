@@ -14,7 +14,6 @@ import java.util.ArrayList;
 
 public class ParseApplications {
     private static final String TAG = "ParseApplications";
-
     private ArrayList<FeedEntry> applications;
 
     public ParseApplications() {
@@ -37,12 +36,12 @@ public class ParseApplications {
             XmlPullParser xpp = factory.newPullParser();
             xpp.setInput(new StringReader(xmlData));
             int eventType = xpp.getEventType();
-            while (eventType != XmlPullParser.END_DOCUMENT) {
+            while(eventType != XmlPullParser.END_DOCUMENT) {
                 String tagName = xpp.getName();
                 switch (eventType) {
                     case XmlPullParser.START_TAG:
                         Log.d(TAG, "parse: Starting tag for " + tagName);
-                        if ("entry".equalsIgnoreCase(tagName)) {
+                        if("entry".equalsIgnoreCase(tagName)) {
                             inEntry = true;
                             currentRecord = new FeedEntry();
                         }
@@ -54,30 +53,35 @@ public class ParseApplications {
 
                     case XmlPullParser.END_TAG:
                         Log.d(TAG, "parse: Ending tag for " + tagName);
-                        if (inEntry) {
-                            if ("entry".equalsIgnoreCase(tagName)) {
+                        if(inEntry) {
+                            if("entry".equalsIgnoreCase(tagName)) {
                                 applications.add(currentRecord);
                                 inEntry = false;
-                            } else if ("name".equalsIgnoreCase(tagName)){
-                                currentRecord.setName(tagName);
-                            } else if ("artist".equalsIgnoreCase(tagName)) {
-                                currentRecord.setArtist(tagName);
-                            } else if ("releaseDate".equalsIgnoreCase(tagName)) {
-                                currentRecord.setReleaseDate(tagName);
-                            } else if ("summary".equalsIgnoreCase(tagName)) {
-                                currentRecord.setSummary(tagName);
-                            } else if ("image".equalsIgnoreCase(tagName)) {
-                                currentRecord.setImageURL(tagName);
+                            } else if("name".equalsIgnoreCase(tagName)) {
+                                currentRecord.setName(textValue);
+                            } else if("artist".equalsIgnoreCase(tagName)) {
+                                currentRecord.setArtist(textValue);
+                            } else if("releaseDate".equalsIgnoreCase(tagName)) {
+                                currentRecord.setReleaseDate(textValue);
+                            } else if("summary".equalsIgnoreCase(tagName)) {
+                                currentRecord.setSummary(textValue);
+                            } else if("image".equalsIgnoreCase(tagName)) {
+                                currentRecord.setImageURL(textValue);
                             }
-                         }
-                         break;
+                        }
+                        break;
 
                     default:
-                        //Nothing else to do
+                        // Nothing else to do.
                 }
                 eventType = xpp.next();
+
             }
-        } catch (Exception e) {
+        for (FeedEntry app: applications) {
+            Log.d(TAG, "*****************");
+            Log.d(TAG, app.toString());
+        }
+        } catch(Exception e) {
             status = false;
             e.printStackTrace();
         }

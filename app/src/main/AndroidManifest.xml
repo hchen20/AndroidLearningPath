@@ -23,7 +23,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".calculator.Calculator" />
         <activity android:name=".top10downloader.Top10Downloader" />
-        <activity android:name=".wechatsdk.WechatSDKLearn"></activity>
     </application>
 
 </manifest>

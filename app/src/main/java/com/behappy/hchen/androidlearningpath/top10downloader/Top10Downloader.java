@@ -4,7 +4,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.ArrayAdapter;
+import android.view.Menu;
 import android.widget.ListView;
 
 import com.behappy.hchen.androidlearningpath.R;
@@ -24,12 +24,19 @@ public class Top10Downloader extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top10_downloader);
-        listApps = (ListView) findViewById(R.id.xmListView);
+        listApps = (ListView) findViewById(R.id.xmlListView);
 
         Log.d(TAG, "onCreate: starting Asynctask");
         DownloadData downloadData = new DownloadData();
         downloadData.execute("http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topfreeapplications/limit=10/xml");
         Log.d(TAG, "onCreate: done");
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.feeds_menu, menu);
+        return true;
     }
 
     private class DownloadData extends AsyncTask<String, Void, String> {
@@ -43,13 +50,18 @@ public class Top10Downloader extends AppCompatActivity {
             ParseApplications parseApplications = new ParseApplications();
             parseApplications.parse(s);
 
-            ArrayAdapter<FeedEntry> arrayAdapter = new ArrayAdapter<FeedEntry>(
+//            ArrayAdapter<FeedEntry> arrayAdapter = new ArrayAdapter<FeedEntry>(
+//                    Top10Downloader.this,
+//                    R.layout.list_item,
+//                    parseApplications.getApplications()
+//            );
+
+            FeedAdapter feedAdapter = new FeedAdapter(
                     Top10Downloader.this,
-                    R.layout.list_item,
+                    R.layout.list_record,
                     parseApplications.getApplications()
             );
-
-            listApps.setAdapter(arrayAdapter);
+            listApps.setAdapter(feedAdapter);
         }
 
         @Override
