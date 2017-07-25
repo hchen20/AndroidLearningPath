@@ -1,66 +1,66 @@
 [
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\b539e967a5b4eefd11cd75abb573876cf80a3090\\output\\res\\anim\\design_fab_out.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\91ddcd97342d36c51b61bf00b051bb96ebe98a08\\output\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\b539e967a5b4eefd11cd75abb573876cf80a3090\\output\\res\\anim\\design_snackbar_out.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\91ddcd97342d36c51b61bf00b051bb96ebe98a08\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_popup_enter.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\b539e967a5b4eefd11cd75abb573876cf80a3090\\output\\res\\anim\\design_snackbar_in.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\b539e967a5b4eefd11cd75abb573876cf80a3090\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\91ddcd97342d36c51b61bf00b051bb96ebe98a08\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\91ddcd97342d36c51b61bf00b051bb96ebe98a08\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_popup_exit.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\b539e967a5b4eefd11cd75abb573876cf80a3090\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\91ddcd97342d36c51b61bf00b051bb96ebe98a08\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_slide_out_top.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\b539e967a5b4eefd11cd75abb573876cf80a3090\\output\\res\\anim\\design_fab_in.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\91ddcd97342d36c51b61bf00b051bb96ebe98a08\\output\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_fade_in.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\workspace\\Games\\AndroidLearningPath\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\0db5d1e83009d73a02fb1c97e779cd6da55c1285\\output\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\workspace\\Games\\AndroidLearningPath\\user.home\\.android\\build-cache\\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\\output\\res\\anim\\abc_fade_out.xml"
     }
 ]

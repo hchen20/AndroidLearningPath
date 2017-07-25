@@ -23,6 +23,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".calculator.Calculator" />
         <activity android:name=".top10downloader.Top10Downloader" />
+        <activity
+            android:name=".reactiveandroid.ReactiveMain"
+            android:label="@string/title_activity_reactive_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".youtubeplayer.YoutubeActivity"></activity>
     </application>
 
 </manifest>

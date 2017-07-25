@@ -8,14 +8,16 @@ import android.widget.Button;
 
 import com.behappy.hchen.androidlearningpath.buttonclickcounter.ButtonClickCounter;
 import com.behappy.hchen.androidlearningpath.calculator.Calculator;
+import com.behappy.hchen.androidlearningpath.reactiveandroid.ReactiveMain;
 import com.behappy.hchen.androidlearningpath.top10downloader.Top10Downloader;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private Button buttonClickCounter;
     private Button calculator;
     private Button top10downloader;
-    private Button wechatsdklearn;
+    private Button reactiveandroid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,5 +54,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        reactiveandroid = (Button) findViewById(R.id.reactiveandroid);
+        reactiveandroid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ReactiveMain.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

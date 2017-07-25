@@ -6,9 +6,13 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
 
     <application
         android:allowBackup="true"
@@ -29,6 +33,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.behappy.hchen.androidlearningpath.calculator.Calculator" />
         <activity android:name="com.behappy.hchen.androidlearningpath.top10downloader.Top10Downloader" />
+        <activity
+            android:name="com.behappy.hchen.androidlearningpath.reactiveandroid.ReactiveMain"
+            android:label="@string/title_activity_reactive_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.behappy.hchen.androidlearningpath.youtubeplayer.YoutubeActivity" />
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
@@ -18,13 +18,20 @@ ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:7:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\010f1f9d111a4bf52cdcdb8409a6d4ee385115fb\output\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\9365457099bc7b94e466eeda2c55921e604bc7c5\output\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\99ba598d5ef0e591bf324f18941d576c96338a7e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\91ddcd97342d36c51b61bf00b051bb96ebe98a08\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\3a4dd0844cd8237624edc59788dc9b3fcd48e853\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\fc860c3ff4f7df8bd6a93d369be9f1a0134aa869\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\2cb09881155cd1cca46e93f94e19b851c9494678\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\6796f3711cb0062001526b7113d9d6d3c04f6b01\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\53c407027c6a8df44557fb1a082ff46ec99cf42b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\4d478cc2d5debf3cdb5d323abc77388c2ced1834\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\05c9de44731b2c7c042f7e99643edcc208f7ea9b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\0e4c9b2004ea27e2bd7d2262443ab700fad36da0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\1d814b26aa3c5f049fd0ebc9a1e8de281f6d7868\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\4ab95ea94dcd5d7ae2a4f279c7dd156329f66c91\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -65,20 +72,60 @@ activity#com.behappy.hchen.androidlearningpath.top10downloader.Top10Downloader
 ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:25:9-69
 	android:name
 		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:25:19-66
+activity#com.behappy.hchen.androidlearningpath.reactiveandroid.ReactiveMain
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:26:9-29:59
+	android:label
+		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:28:13-65
+	android:theme
+		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:27:13-57
+activity#com.behappy.hchen.androidlearningpath.youtubeplayer.YoutubeActivity
+ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:30:9-76
+	android:name
+		ADDED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml:30:19-64
 uses-sdk
 INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\1b7ddf6eae49781c8283f67998d85994ee0b5365\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\b539e967a5b4eefd11cd75abb573876cf80a3090\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\010f1f9d111a4bf52cdcdb8409a6d4ee385115fb\output\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\9365457099bc7b94e466eeda2c55921e604bc7c5\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\92db690d2b4dac30efdd15af5aa0ea848f256d78\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\99ba598d5ef0e591bf324f18941d576c96338a7e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\91ddcd97342d36c51b61bf00b051bb96ebe98a08\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\3a4dd0844cd8237624edc59788dc9b3fcd48e853\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\fc860c3ff4f7df8bd6a93d369be9f1a0134aa869\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\2cb09881155cd1cca46e93f94e19b851c9494678\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\6796f3711cb0062001526b7113d9d6d3c04f6b01\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\53c407027c6a8df44557fb1a082ff46ec99cf42b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\4d478cc2d5debf3cdb5d323abc77388c2ced1834\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\05c9de44731b2c7c042f7e99643edcc208f7ea9b\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\3c6367db7583783e5a51549f9c405e25119ae1c3\output\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.0.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\1dc4d1485531798904d8a92d4b0d2e24c4ae1930\output\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\9a533ec8b0467bba4719a95744a23ac823068d2a\output\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\215aed4d63d70021e8b439524099fe5e019105f0\output\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\0e4c9b2004ea27e2bd7d2262443ab700fad36da0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\8a8f86c1e92e8f794aa099aa7cd4bd897ee28117\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\1d814b26aa3c5f049fd0ebc9a1e8de281f6d7868\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\4ab95ea94dcd5d7ae2a4f279c7dd156329f66c91\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\0db5d1e83009d73a02fb1c97e779cd6da55c1285\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\91ddcd97342d36c51b61bf00b051bb96ebe98a08\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
 		INJECTED from C:\workspace\Games\AndroidLearningPath\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\91ddcd97342d36c51b61bf00b051bb96ebe98a08\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\e5f6c9cdeb153bbce53ccac15e14b2780dc6537c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\3a4dd0844cd8237624edc59788dc9b3fcd48e853\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\fc860c3ff4f7df8bd6a93d369be9f1a0134aa869\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\2cb09881155cd1cca46e93f94e19b851c9494678\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\6796f3711cb0062001526b7113d9d6d3c04f6b01\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\53c407027c6a8df44557fb1a082ff46ec99cf42b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\4d478cc2d5debf3cdb5d323abc77388c2ced1834\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\05c9de44731b2c7c042f7e99643edcc208f7ea9b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\8a8f86c1e92e8f794aa099aa7cd4bd897ee28117\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\1d814b26aa3c5f049fd0ebc9a1e8de281f6d7868\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\4ab95ea94dcd5d7ae2a4f279c7dd156329f66c91\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\91ddcd97342d36c51b61bf00b051bb96ebe98a08\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.0] C:\workspace\Games\AndroidLearningPath\user.home\.android\build-cache\91ddcd97342d36c51b61bf00b051bb96ebe98a08\output\AndroidManifest.xml:26:9-47
