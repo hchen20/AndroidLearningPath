@@ -8,7 +8,7 @@ import java.util.Date;
  * Created by Hang Chen on 7/13/2017.
  */
 
-public class StockUpdate extends Serializable {
+public class StockUpdate implements Serializable {
     private final String stockSymbol;
     private final BigDecimal price;
     private final Date date;

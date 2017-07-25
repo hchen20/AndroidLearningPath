@@ -10,6 +10,7 @@ import com.behappy.hchen.androidlearningpath.buttonclickcounter.ButtonClickCount
 import com.behappy.hchen.androidlearningpath.calculator.Calculator;
 import com.behappy.hchen.androidlearningpath.reactiveandroid.ReactiveMain;
 import com.behappy.hchen.androidlearningpath.top10downloader.Top10Downloader;
+import com.behappy.hchen.androidlearningpath.youtubeplayer.YoutubeActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button calculator;
     private Button top10downloader;
     private Button reactiveandroid;
+    private Button youtubeplayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,5 +66,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        youtubeplayer = (Button) findViewById(R.id.youtubeplayer);
+        youtubeplayer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, YoutubeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
